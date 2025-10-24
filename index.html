@@ -37,12 +37,15 @@
         .logo {
             width: 70px;
             height: 70px;
+            max-width: 70px;
+            max-height: 70px;
             object-fit: contain;
             background: white;
             border-radius: 8px;
             padding: 8px;
             box-shadow: 0 4px 12px rgba(0,0,0,0.2);
             flex-shrink: 0;
+            display: block;
         }
 
         .company-info {
@@ -363,7 +366,7 @@
 <body>
     <header>
         <div class="header-content">
-            <img src="https://i.postimg.cc/Gp7PhVCv/Logo-NJBRASIL.jpg">
+            <img src="https://i.postimg.cc/Gp7PhVCv/Logo-NJBRASIL.jpg" alt="NjBrasil Industrial" class="logo">
             <div class="company-info">
                 <h1>NjBrasil Industrial</h1>
                 <p>Soluções industriais de qualidade</p>
@@ -534,5 +537,3 @@
     </script>
 </body>
 </html>
-
-
